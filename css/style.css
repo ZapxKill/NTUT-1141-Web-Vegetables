@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-family: "Noto Sans TC", sans-serif;
-    min-width: 720px;
+    min-width: 800px;
 }
 
 *,*:before,*:after{
@@ -29,20 +29,31 @@ header{
     margin-right: 0.8em;
 }
 
-.action-list .button{
+.action-list .button a{
+    
+    text-decoration: none;
+}
+
+.user-action{
+    display: flex;
+    flex-direction: row;
+}
+.user-action a{
+    margin-left: 0.8em;
+    text-decoration: none;
+}
+
+.user-action .button{
     font-size: 14px;
     font-weight: 700;
     line-height: normal;
     color: #778A50;
     border: 1px solid #778A50;
     border-radius: 3px;
-    margin-left: 0.8em;
     padding: 0.2em 0.5em;
 }
 
-.action-list a{
-    text-decoration: none;
-}
+
 
 body{
     display: flex;
